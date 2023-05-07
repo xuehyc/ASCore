@@ -76,7 +76,7 @@ RealmID = 1
 #        Example:     "@prefix@/share/trinitycore"
 #        Default:     "."
 
-DataDir = "."
+DataDir = "D:\Program Files (x86)\WOW_902_36839\Data"
 
 #
 #    LogsDir
