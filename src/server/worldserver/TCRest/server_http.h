@@ -293,14 +293,14 @@ namespace SimpleWeb {
           return;
         }
 
-        timer = std::unique_ptr<asio::steady_timer>(new asio::steady_timer(get_socket_executor(*socket), std::chrono::seconds(seconds)));
-        std::weak_ptr<Connection> self_weak(this->shared_from_this()); // To avoid keeping Connection instance alive longer than needed
-        timer->async_wait([self_weak](const error_code &ec) {
-          if(!ec) {
-            if(auto self = self_weak.lock())
-              self->close();
-          }
-        });
+        // timer = std::unique_ptr<asio::steady_timer>(new asio::steady_timer(get_socket_executor(*socket), std::chrono::steady_clock::duration &seconds));//,std::chrono::seconds(seconds))
+        // std::weak_ptr<Connection> self_weak(this->shared_from_this()); // To avoid keeping Connection instance alive longer than needed
+        // timer->async_wait([self_weak](const error_code &ec) {
+        //   if(!ec) {
+        //     if(auto self = self_weak.lock())
+        //       self->close();
+        //   }
+        // });//I DID.
       }
 
       void cancel_timeout() noexcept {
