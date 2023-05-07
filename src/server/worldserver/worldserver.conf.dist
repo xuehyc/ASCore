@@ -111,9 +111,9 @@ LogsDir = ""
 #    The username you choose must have permisions to create/alter/rename tables.
 
 LoginDatabaseInfo     = "127.0.0.1;3306;trinity;trinity;asha_auth"
-WorldDatabaseInfo     = "127.0.0.1;3306;trinity;trinity;asha_world"
+WorldDatabaseInfo     = "127.0.0.1;3306;trinity;trinity;ashamane_world"
 CharacterDatabaseInfo = "127.0.0.1;3306;trinity;trinity;asha_characters"
-HotfixDatabaseInfo    = "127.0.0.1;3306;trinity;trinity;asha_hotfixes"
+HotfixDatabaseInfo    = "127.0.0.1;3306;trinity;trinity;ashamane_hotfixes"
 
 #
 #    LoginDatabase.WorkerThreads
