@@ -4273,3 +4273,6 @@ Metric.OverallStatusInterval = 1
 
 #
 ###################################################################################################
+
+# Add from console promot
+Azerite.Knowledge.Level = 1
