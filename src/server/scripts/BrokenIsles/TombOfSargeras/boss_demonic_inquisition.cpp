@@ -2,7 +2,7 @@
 * Copyright (C) 2016-2019 MagicStaorm
 *
 * Este codigo es de uso exclusivo y privado para la red de gaming
-* ColossusWoW est� totalmente prohibida su distribuci�n y
+* ColossusWoW está totalmente prohibida su distribución y
 * uso en proyectos ajenos, si has obtenido o encontrado este codigo
 * publicamente envianos un email a administracion@colossuswow.com
 * indicandonos como y donde has obtenido este codigo
@@ -10,6 +10,28 @@
 * Recuerda, no distribuyas, no compartas y no subas este codigo a ningun
 * lugar publico, usa siempre nuestros repositorios Git!
 */
+
+//上文翻译(西班牙语)
+
+/*版权所有（C）2016-2019 MagicStaorm
+
+*
+
+*此代码仅用于网络游戏
+
+*ColosSusWoW完全禁止分发和
+
+*如果您已经获得或找到此代码，请在其他项目中使用
+
+*公开向我们发送电子邮件administracion@colossuswow.com
+
+*告诉我们您是如何以及在哪里获得此代码的
+
+*
+
+*记住，不要分发，不要共享，也不要将此代码上传到任何
+
+*公共场所，始终使用我们的Git存储库！*/
 
 #include "tomb_of_sargeras.h"
 
