@@ -1,4 +1,4 @@
-/*
+ï»¿/*
  * Copyright (C) 2017-2019 AshamaneProject <https://github.com/AshamaneProject>
  *
  * This program is free software; you can redistribute it and/or modify it
@@ -567,7 +567,7 @@ public:
     {
         if (quest->GetQuestId() == TanaanQuests::QuestATasteOfIron)
         {
-            // On enlève Thaelin avant le début de la cinématique, pour qu'il revienne correctement après coté client
+            // On enlï¿½ve Thaelin avant le dï¿½but de la cinï¿½matique, pour qu'il revienne correctement aprï¿½s cotï¿½ client
             player->RemoveAurasDueToSpell(TanaanPhases::PhaseFinalThaelinCanon);
 
             player->GetSceneMgr().PlaySceneByPackageId(TanaanSceneObjects::SceneShootingGallery, SCENEFLAG_NOT_CANCELABLE | SCENEFLAG_UNK16);

@@ -1,8 +1,8 @@
-/*
+ï»¿/*
 * Copyright (C) 2016-2019 MagicStaorm
 *
 * Este codigo es de uso exclusivo y privado para la red de gaming
-* ColossusWoW está totalmente prohibida su distribución y
+* ColossusWoW estï¿½ totalmente prohibida su distribuciï¿½n y
 * uso en proyectos ajenos, si has obtenido o encontrado este codigo
 * publicamente envianos un email a administracion@colossuswow.com
 * indicandonos como y donde has obtenido este codigo
